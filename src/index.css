@@ -20,10 +20,11 @@ body {
 }
 
 body {
-  background: #311c3b;
+  background: #4b2b5a;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 0rem 4rem ;
 }
 
 .App {
@@ -50,6 +51,11 @@ h1 {
 
 .TodoForm {
   width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+
 }
 
 .todo-input {
@@ -57,8 +63,7 @@ h1 {
   background: none;
   border: 1px solid #eacee4;
   padding: 0.5rem 1rem;
-  margin-top: 1rem;
-  margin-bottom: 2rem;
+  /* margin-bottom: 4rem; */
   width: 60%;
   color: #fff;
 }
@@ -75,15 +80,16 @@ h1 {
   padding: 0.55rem;
   cursor: pointer;
   font-weight: 600;
+  /* margin-bottom: 4rem; */
 }
 @media screen  and (max-width:900px){
   .todo-input{
     width: 72%;
-    height: 42.5px;
+    height: 43px;
   }
   .todo-btn{
     width: 28%;
-    height: 45px;
+    height: 43px;
     font-size: 13px;
     font-weight: 600;
   }
@@ -102,7 +108,6 @@ h1 {
   background: #eacee4;
   color: #311c3b;
   padding: 0.75rem 1rem;
-  border-radius: 5px;
   margin-bottom: 1rem;
   cursor: pointer;
 }
@@ -111,6 +116,9 @@ h1 {
   margin-left: 0.75rem;
 }
 
+.fa-check{
+  margin-right: 0.75rem;
+}
 .completed {
   color: #c5aeff;
   text-decoration: line-through;
