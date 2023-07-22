@@ -24,7 +24,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0rem 4rem ;
 }
 
 .App {
@@ -83,14 +82,23 @@ h1 {
   /* margin-bottom: 4rem; */
 }
 @media screen  and (max-width:900px){
+body{
+  padding: 0rem;
+}
+
   .todo-input{
     width: 72%;
     height: 43px;
+    font-size: 11px;
   }
+h1{
+  font-size: 1.2rem;
+}
+
   .todo-btn{
     width: 28%;
     height: 43px;
-    font-size: 13px;
+    font-size: 11px;
     font-weight: 600;
   }
   .todo-btns{
@@ -98,6 +106,9 @@ h1 {
     height: 43.5px;
     font-size: 11px;
     font-weight: 600;
+  }
+  .Todo{
+    font-size: 14px;
   }
 }
 
@@ -120,7 +131,7 @@ h1 {
   margin-right: 0.75rem;
 }
 .completed {
-  color: #c5aeff;
+  color: #ab98da;
   text-decoration: line-through;
 }
  
